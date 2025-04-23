@@ -17,7 +17,6 @@ let invoices = [  // Move this outside to make it global
     { id: 103, amount: 500.25, dueDate: "2025-04-23", recipient: "Person C" },
     { id: 104, amount: 750.50, dueDate: "2025-04-21", recipient: "Person D" },
     { id: 105, amount: 300.00, dueDate: "2025-04-20", recipient: "Person E" },
-    { id: 106, amount: 200.00, dueDate: "2025-04-30", recipient: "Person F" }
 ];
 
 if (!process.env.JWT_SECRET) {
