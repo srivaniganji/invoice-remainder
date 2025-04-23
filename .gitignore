@@ -1,0 +1,11 @@
+.qodo
+# Node
+node_modules/
+.env
+
+# Build
+frontend/build/
+backend/node_modules/
+
+# Logs
+*.log
